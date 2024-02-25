@@ -17,18 +17,15 @@ namespace WebApplication5
         protected void Page_Load(object sender, EventArgs e)
         {
             id = Convert.ToInt32(Request.QueryString["OGRID"].ToString());
-
             TxtOgrAd1.Text = dt.OgrenciSec(id)[0].OGRAD;
             TxtOgrSoyad.Text = dt.OgrenciSec(id)[0].OGRSOYAD;
             TxtOgrMail.Text = dt.OgrenciSec(id)[0].OGRMAIL;
             TxtOgrTelefon.Text = dt.OgrenciSec(id)[0].OGRTELEFON;
             TxtOgrSifre.Text = dt.OgrenciSec(id)[0].OGRSIFRE;
-
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
             Response.Redirect("Default.aspx");
         }
     }

@@ -27,7 +27,7 @@
 </head>
 
 <body>
-
+    
     <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
@@ -54,19 +54,29 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/derslistesi.aspx">
                         <i class="fas fa-briefcase"></i>
                         Dersler
                     </a>
-                    <a href="#"">
+                <li class="active">
+                    <a href="#MesajlarSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-paper-plane"></i>
-                        Mesajlar
+                            Mesajlar
                     </a>
+                    <ul class="collapse list-unstyled" id="MesajlarSubmenu">
+                        <li>
+                            <a href="/gelenmesajlar.aspx">Gelen Mesajlar</a>
+                        </li>
+                        <li>
+                            <a href="/gidenmesajlar.aspx">Giden Mesajlar</a>
+                        </li>
+                    </ul>
+                </li>
                 </li>
                 <li class="active">
                     <a href="#duyurularSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                        <i class="fas fa-home"></i>
-                            Ögrenci Listesi
+                        <i class="fas fa-briefcase"></i>
+                            DUYURULAR
                     </a>
                     <ul class="collapse list-unstyled" id="duyurularSubmenu">
                         <li>
@@ -78,7 +88,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/notlistesi.aspx">
                         <i class="fas fa-briefcase"></i>
                         Notlar
                     </a>
@@ -90,7 +100,7 @@
                    </a>
                </li>
                <li>
-                   <a href="#">
+                   <a href="grafikler.aspx">
                        <i class="fas fa-question"></i>
                        Grafikler
                    </a>
@@ -105,7 +115,7 @@
                 <li>
                     <a href="#">
                         <i class="fas fa-paper-plane"></i>
-                        Ayarlar
+                        Çıkış yap
                     </a>
                 </li>
             

@@ -9,6 +9,7 @@
         <caption>List of users</caption>
         <tr>
             <th scope="col">ID</th>
+            <th scope="col">NUMARA</th>
             <th scope="col">Adı</th>
             <th scope="col">Soyad</th>
             <th scope="col">Telefon</th>
@@ -21,7 +22,8 @@
             <asp:Repeater ID="Repeater1" runat="server">
                 <ItemTemplate>
                     <tr>
-                        <td><%#Eval("OGRID")%></td>
+                        <td>+<%#Eval("OGRID")%></td>
+                        <td><%#Eval("NUMARA")%></td>
                         <td><%#Eval("OGRAD")%></td>
                         <td><%#Eval("OGRSOYAD")%></td>
                         <td><%#Eval("OGRTELEFON")%></td>
