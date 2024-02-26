@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    
+
     <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
@@ -40,7 +40,7 @@
                 <li class="active">
                     <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-home"></i>
-                            Ögrenci Listesi
+                        Ögrenci Listesi
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
@@ -58,25 +58,28 @@
                         <i class="fas fa-briefcase"></i>
                         Dersler
                     </a>
-                <li class="active">
-                    <a href="#MesajlarSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                        <i class="fas fa-paper-plane"></i>
+                    <li class="active">
+                        <a href="#MesajlarSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                            <i class="fas fa-paper-plane"></i>
                             Mesajlar
-                    </a>
-                    <ul class="collapse list-unstyled" id="MesajlarSubmenu">
-                        <li>
-                            <a href="/gelenmesajlar.aspx">Gelen Mesajlar</a>
-                        </li>
-                        <li>
-                            <a href="/gidenmesajlar.aspx">Giden Mesajlar</a>
-                        </li>
-                    </ul>
-                </li>
+                        </a>
+                        <ul class="collapse list-unstyled" id="MesajlarSubmenu">
+                            <li>
+                                <a href="/gelenmesajlar.aspx">Gelen Mesajlar</a>
+                            </li>
+                            <li>
+                                <a href="/gidenmesajlar.aspx">Giden Mesajlar</a>
+                            </li>
+                            <li>
+                                <a href="/mesajolustur.aspx">Mesaj Oluştur</a>
+                            </li>
+                        </ul>
+                    </li>
                 </li>
                 <li class="active">
                     <a href="#duyurularSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-briefcase"></i>
-                            DUYURULAR
+                        DUYURULAR
                     </a>
                     <ul class="collapse list-unstyled" id="duyurularSubmenu">
                         <li>
@@ -94,17 +97,17 @@
                     </a>
                 </li>
                 <li>
-                   <a href="#">
-                       <i class="fas fa-briefcase"></i>
-                       İstatistikler
-                   </a>
-               </li>
-               <li>
-                   <a href="grafikler.aspx">
-                       <i class="fas fa-question"></i>
-                       Grafikler
-                   </a>
-               </li>
+                    <a href="#">
+                        <i class="fas fa-briefcase"></i>
+                        İstatistikler
+                    </a>
+                </li>
+                <li>
+                    <a href="grafikler.aspx">
+                        <i class="fas fa-question"></i>
+                        Grafikler
+                    </a>
+                </li>
 
                 <li>
                     <a href="#">
@@ -118,15 +121,14 @@
                         Çıkış yap
                     </a>
                 </li>
-            
+
             </ul>
         </nav>
 
         <!-- Page Content  -->
         <div id="content">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
-
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
         </div>
     </div>
 

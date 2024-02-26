@@ -7,17 +7,13 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication5
 {
-    public partial class GelenMesajlar : System.Web.UI.Page
+    public partial class GidenMesajlar : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             DataSet1TableAdapters.TBL_MESAJLARTableAdapter dt = new DataSet1TableAdapters.TBL_MESAJLARTableAdapter();
-
-
-            Repeater1.DataSource = dt.MesajlariListele("5368");
+            Repeater1.DataSource=  dt.MesajlariGetir2("5368");
             Repeater1.DataBind();
-
-
 
         }
     }

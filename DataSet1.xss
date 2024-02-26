@@ -11,7 +11,7 @@
     <Shape ID="DesignTable:TBL_OGRETMEN" ZOrder="6" X="478" Y="76" Height="60" Width="269" AdapterExpanded="false" DataTableExpanded="false" OldAdapterHeight="51" OldDataTableHeight="117" SplitterPosition="27" />
     <Shape ID="DesignTable:OgrNotlar" ZOrder="4" X="871" Y="59" Height="350" Width="300" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="227" />
     <Shape ID="DesignTable:TBL_DERSLER" ZOrder="3" X="481" Y="196" Height="218" Width="300" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="73" />
-    <Shape ID="DesignTable:TBL_MESAJLAR" ZOrder="1" X="604" Y="583" Height="196" Width="300" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="139" />
+    <Shape ID="DesignTable:TBL_MESAJLAR" ZOrder="1" X="480" Y="460" Height="240" Width="300" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="139" />
   </Shapes>
   <Connectors>
     <Connector ID="DesignRelation:FK_TBL_DUYURU_TBL_OGRETMEN" ZOrder="5" LineWidth="11">
