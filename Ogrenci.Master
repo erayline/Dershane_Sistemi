@@ -1,6 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Ogretmen.master.cs" Inherits="WebApplication5.Ogretmen" %>
-
-
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Ogrenci.master.cs" Inherits="WebApplication5.Ogrenci" %>
 
 <!DOCTYPE html>
 <html>
@@ -19,7 +17,7 @@
 
     <link href="Dosyalar1/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Our Custom CSS -->
-    <link href="Dosyalar1/StyleSheet2.css" rel="stylesheet" />
+    <link href="Dosyalar1/StyleShee.css" rel="stylesheet" />
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
@@ -43,26 +41,10 @@
             </div>
 
             <ul class="list-unstyled components">
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                        <i class="fas fa-home"></i>
-                        Ögrenci Listesi
-                    </a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="/Default.aspx">Öğrenci Listele</a>
-                        </li>
-
-                        <li>
-                            <a href="/OgrenciEkle.aspx">Öğrenci Ekle</a>
-                        </li>
-
-                    </ul>
-                </li>
                 <li>
                     <a href="/derslistesi.aspx">
                         <i class="fas fa-briefcase"></i>
-                        Dersler
+                        Profilim
                     </a>
                     <li class="active">
                         <a href="#MesajlarSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
@@ -82,37 +64,16 @@
                         </ul>
                     </li>
                 </li>
-                <li class="active">
-                    <a href="#duyurularSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <li>
+                    <a href="/notlistesi.aspx">
                         <i class="fas fa-briefcase"></i>
                         DUYURULAR
                     </a>
-                    <ul class="collapse list-unstyled" id="duyurularSubmenu">
-                        <li>
-                            <a href="/duyurulistesi.aspx">Duyurulari Listele</a>
-                        </li>
-                        <li>
-                            <a href="/duyuruekle.aspx">Duyuru Ekle</a>
-                        </li>
-                    </ul>
                 </li>
                 <li>
                     <a href="/notlistesi.aspx">
                         <i class="fas fa-briefcase"></i>
-                        Notlar
-                    </a>
-                </li>
-                <li>
-                    <a href="grafikler.aspx">
-                        <i class="fas fa-question"></i>
-                        Grafikler
-                    </a>
-                </li>
-
-                <li>
-                    <a href="geleri.aspx">
-                        <i class="fas fa-paper-plane"></i>
-                        Galeri
+                        Sınav Notlar
                     </a>
                 </li>
                 <li>
@@ -123,6 +84,10 @@
                 </li>
 
             </ul>
+            <div>
+                merhaba dünya
+            </div>
+            <asp:Image ID="Image1" runat="server" Width="200px" Height="200px" style="margin-left:2.2rem"/>
         </nav>
 
         <!-- Page Content  -->

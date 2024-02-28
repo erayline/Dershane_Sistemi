@@ -17,6 +17,7 @@ namespace WebApplication5
         protected void Page_Load(object sender, EventArgs e)
         {
             id = Convert.ToInt32(Request.QueryString["OGRID"].ToString());
+            id = -1 * id;
             TxtOgrAd1.Text = dt.OgrenciSec(id)[0].OGRAD;
             TxtOgrSoyad.Text = dt.OgrenciSec(id)[0].OGRSOYAD;
             TxtOgrMail.Text = dt.OgrenciSec(id)[0].OGRMAIL;

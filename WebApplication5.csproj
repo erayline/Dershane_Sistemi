@@ -441,16 +441,20 @@
     <Content Include="Dosyalar1\sidebar\style3.css" />
     <Content Include="Dosyalar1\sidebar\style4.css" />
     <Content Include="Dosyalar1\sidebar\style5.css" />
+    <Content Include="Dosyalar1\StyleShee.css" />
     <Content Include="Dosyalar1\StyleSheet2.css" />
     <Content Include="DuyuruEkle.aspx" />
     <Content Include="DuyuruListesi.aspx" />
     <Content Include="DuyuruSil.aspx" />
     <Content Include="GelenMesajlar.aspx" />
+    <Content Include="geleri.aspx" />
     <Content Include="GidenMesajlar.aspx" />
     <Content Include="Grafikler.aspx" />
+    <Content Include="LoginPanel.aspx" />
     <Content Include="MesajOlustur.aspx" />
     <Content Include="NotGuncelle.aspx" />
     <Content Include="NotListesi.aspx" />
+    <Content Include="OgrenciDefault.aspx" />
     <Content Include="OgrenciEkle.aspx" />
     <Content Include="OgrenciSil.aspx" />
     <Content Include="OgrenciyiGuncelle.aspx" />
@@ -525,6 +529,13 @@
     <Compile Include="GelenMesajlar.aspx.designer.cs">
       <DependentUpon>GelenMesajlar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="geleri.aspx.cs">
+      <DependentUpon>geleri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="geleri.aspx.designer.cs">
+      <DependentUpon>geleri.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GidenMesajlar.aspx.cs">
       <DependentUpon>GidenMesajlar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -538,6 +549,13 @@
     </Compile>
     <Compile Include="Grafikler.aspx.designer.cs">
       <DependentUpon>Grafikler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPanel.aspx.cs">
+      <DependentUpon>LoginPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPanel.aspx.designer.cs">
+      <DependentUpon>LoginPanel.aspx</DependentUpon>
     </Compile>
     <Compile Include="MesajOlustur.aspx.cs">
       <DependentUpon>MesajOlustur.aspx</DependentUpon>
@@ -559,6 +577,20 @@
     </Compile>
     <Compile Include="NotListesi.aspx.designer.cs">
       <DependentUpon>NotListesi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ogrenci.Master.cs">
+      <DependentUpon>Ogrenci.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ogrenci.Master.designer.cs">
+      <DependentUpon>Ogrenci.Master</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciDefault.aspx.cs">
+      <DependentUpon>OgrenciDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OgrenciDefault.aspx.designer.cs">
+      <DependentUpon>OgrenciDefault.aspx</DependentUpon>
     </Compile>
     <Compile Include="OgrenciEkle.aspx.cs">
       <DependentUpon>OgrenciEkle.aspx</DependentUpon>
@@ -698,6 +730,7 @@
     <Content Include="DataSet1.xss">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Content>
+    <Content Include="Ogrenci.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
